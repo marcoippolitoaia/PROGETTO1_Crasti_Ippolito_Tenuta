@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>OrientData</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scritp.js"></script>
+</head>
+<body>
+
+    <header>
+        <div id="logo">OpenData</div>
+        <nav>
+            <ul>
+                <li><a href="#" class="nav-link active" data-target="home">Home</a></li>
+                <li><a href="#" class="nav-link" data-target="percorsi">Percorsi</a></li>
+                <li><a href="#" class="nav-link" data-target="professioni">Professioni</a></li>
+                <li><a href="#" class="nav-link" data-target="confronto">Confronto</a></li>
+                <li><a href="#" class="nav-link" data-target="statistiche">Statistiche</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+
+        <section id="home" class="page active">
+            <div id="welcome-box">
+                <h1>Benvenuto nel Portale Orientamento</h1>
+                <p>Seleziona e carica il file JSON con i dati per abilitare tutte le funzioni del sito.</p>
+                <label for="file-input" id="btn-carica">Scegli il file JSON</label>
+                <input type="file" id="file-input" accept=".json">
+                <p id="stato-caricamento" style="margin-top: 15px; color: #94a3b8;">Nessun file caricato.</p>
+            </div>
+        </section>
+
+        <section id="percorsi" class="page">
+            <h2>Percorsi di Studio Universitari</h2>
+            
+            <div class="filter-bar">
+                <input type="text" id="cerca-percorso" placeholder="Cerca percorso per nome...">
+                <select id="filtro-area">
+                    <!-- Questi sono solo degli esempi per vedere se le opzioni funzionano, poi verrano modificati-->
+                    <option value="tutte">Tutte le Aree</option>
+                    <option value="Tecnologica">Tecnologica</option>
+                    <option value="Umanistica">Umanistica</option>
+                    <option value="Economica">Economica</option>
+                </select>
+                <button id="btn-ordina-percorsi" class="btn-generico">Ordina A-Z / Z-A</button>
+            </div>
+
+            <div id="griglia-percorsi" class="grid-contenitore"></div>
+        </section>
+
+        <section id="professioni" class="page">
+            <h2>Sbocchi Professionali e Lavori</h2>
+            
+            <div class="filter-bar">
+                <input type="text" id="cerca-professione" placeholder="Cerca lavoro per nome...">
+            </div>
+
+            <div id="griglia-professioni" class="grid-contenitore"></div>
+        </section>
+
+        <section id="confronto" class="page">
+            <h2>Confronta i Percorsi di Studio</h2>
+            <p style="margin-bottom: 20px; color: #94a3b8;">Seleziona due percorsi diversi per metterne a confronto i dettagli principali.</p>
+            
+            <div class="filter-bar">
+                <select id="seleziona-p1"><option value="">Scegli il primo...</option></select>
+                <select id="seleziona-p2"><option value="">Scegli il secondo...</option></select>
+                <button id="btn-avvia-confronto" class="btn-generico">Avvia Confronto</button>
+            </div>
+
+            <div id="risultato-confronto"></div>
+        </section>
+
+        <section id="statistiche" class="page">
+            <h2>Statistiche e Distribuzione Dati</h2>
+            <div id="box-grafico">
+                <canvas id="grafico-stipendi"></canvas> <!-- Questo è lo scheletro del grafico, che poi verrà creato nello script-->
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>&copy; 2026 - Progetto OpenData realizzato da Crasti Alessandro, Ippolito Marco, Tenuta Cristhian</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
