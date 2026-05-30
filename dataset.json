@@ -1,0 +1,73 @@
+{
+  "percorsi": [
+    {
+      "id": "perc_01",
+      "nome": "Laurea in Informatica",
+      "tipo": "Universitario",
+      "durata": "3 anni",
+      "area": "Tecnologico",
+      "descrizione": "Corso focalizzato sulle fondamenta della programmazione, algoritmi e strutture dati.",
+      "competenze": ["Programmazione", "Logica"],
+      "difficolta": "Alta"
+    },
+    {
+      "id": "perc_02",
+      "nome": "Master in Data Science",
+      "tipo": "Specialistico",
+      "durata": "2 anni",
+      "area": "Dati",
+      "descrizione": "Percorso avanzato per l'analisi statistica dei dati e lo sviluppo di modelli di Machine Learning.",
+      "competenze": ["Statistica", "Python"],
+      "difficolta": "Alta"
+    }
+  ],
+  "professioni": [
+    {
+      "id": "prof_01",
+      "nome": "Software Engineer",
+      "area": "Tecnologico",
+      "stipendioMedio": 38000,
+      "domanda": "Alta",
+      "crescitaPrevista": "Molto Alta",
+      "descrizione": "Si occupa della progettazione, sviluppo e manutenzione di applicazioni e sistemi software.",
+      "competenzeRichieste": ["Java", "Problem Solving"]
+    },
+    {
+      "id": "prof_02",
+      "nome": "Data Analyst",
+      "area": "Dati",
+      "stipendioMedio": 32000,
+      "domanda": "Alta",
+      "crescitaPrevista": "Alta",
+      "descrizione": "Estrae, pulisce e analizza grandi quantità di dati per aiutare le aziende a prendere decisioni.",
+      "competenzeRichieste": ["SQL", "Excel Avanzato"]
+    },
+    {
+      "id": "prof_03",
+      "nome": "Web Designer",
+      "area": "Creativo",
+      "stipendioMedio": 26000,
+      "domanda": "Media",
+      "crescitaPrevista": "Stabile",
+      "descrizione": "Cura l'aspetto visivo, l'interfaccia utente (UI) e l'esperienza d'uso (UX) dei siti web.",
+      "competenzeRichieste": ["Figma", "CSS"]
+    }
+  ],
+  "competenze": [
+    {
+      "nome": "Programmazione (Python/Java)",
+      "categoria": "Tecnica",
+      "descrizione": "Capacità di scrivere codice pulito ed efficiente utilizzando i principali linguaggi sul mercato."
+    },
+    {
+      "nome": "Analisi Statistica",
+      "categoria": "Tecnica",
+      "descrizione": "Abilità nel comprendere i modelli matematici e interpretare i flussi di dati aziendali."
+    },
+    {
+      "nome": "Problem Solving",
+      "categoria": "Trasversale",
+      "descrizione": "Attitudine a scomporre problemi complessi in sotto-problemi più semplici per risolverli."
+    }
+  ]
+}

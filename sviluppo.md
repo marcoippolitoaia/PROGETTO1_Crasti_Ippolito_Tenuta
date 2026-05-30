@@ -10,3 +10,8 @@ Questo è come appare ora il sito senza il CSS (tolte quelle due cose che abbiam
 <img width="2560" height="1438" alt="OrientData - Google Chrome 5_30_2026 12_01_14 AM" src="https://github.com/user-attachments/assets/d8f8592c-f870-4448-b4e2-64b30124c56f" />
 <img width="2560" height="1438" alt="OrientData - Google Chrome 5_30_2026 12_01_17 AM" src="https://github.com/user-attachments/assets/9b4ad74d-5e14-4cc6-b9f7-87755713b32c" />
 <img width="2560" height="1438" alt="OrientData - Google Chrome 5_30_2026 12_01_20 AM" src="https://github.com/user-attachments/assets/05340bf9-8d40-4ab4-9588-8ebe5c60f36f" />
+
+5/30/2026 (Alessandro)
+Ho lavorato solo sullo script. Ho aggiunto la lettura e conversione del file JSON, e anche la creazione e l'ordinamento delle card nella pagina "Percorsi".
+Ho anche creato un file JSON da usare come test per vedere se tutto funziona correttamente.
+Qui sotto allego le foto di come il sito è stato migliorato:
