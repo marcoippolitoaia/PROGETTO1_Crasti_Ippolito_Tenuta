@@ -7,6 +7,10 @@ Web app per l'orientamento che aiuta gli studenti e i lavoratori a trovare il pr
 
 *OrientaData* è una web app interattiva creata per aiutare studenti e lavoratori a scegliere il proprio futuro. Permette di esplorare percorsi di studio, professioni e competenze attraverso strumenti di ricerca, confronto e un quiz di orientamento personalizzato.
 
+# Progettazione del sito web
+Abbiamo progettato l'interfaccia utente (UI/UX) su Figma. Puoi vedere i mockup direttamente a questo link:
+* ➡️ [Visualizza il progetto su Figma](https://www.figma.com/design/pZWILZO4aKbSHmKXasGyvv/Untitled?node-id=0-1&t=VTGCFU7R7OsqtM20-1)
+
 ## Come Avviare il Progetto Localmente
 Per ragioni di sicurezza del browser legate al caricamento del file dataset.json tramite Fetch API, è necessario avviare il sito utilizzando un server locale.
 1. Clonare la repository: git clone <url-repo>
