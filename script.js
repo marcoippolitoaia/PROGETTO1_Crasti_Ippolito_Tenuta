@@ -136,3 +136,35 @@ document.getElementById('btn-ordina-percorsi').addEventListener('click', functio
     }
     applicaFiltriPercorsi(); // Mostra i risultati ordinati mantenendo i filtri attivi
 });
+
+// funzione che mostra le professioni con la ricerca
+function mostraProfessioni(arrayDaMostrare) {
+    const griglia = document.getElementById('griglia-professioni');
+    griglia.innerHTML = "";
+    
+    for (let i = 0; i < arrayDaMostrare.length; i++) {
+        const prof = arrayDaMostrare[i];
+        
+        griglia.innerHTML += `
+            <div class="card">
+                <h3>${prof.nome}</h3>
+                <p><strong>Stipendio Medio:</strong> €${prof.stipendioMedio}</p>
+                <p><strong>Competenze:</strong> ${prof.competenzeRichieste.join(', ')}</p>
+            </div>
+        `;
+    }
+}
+
+// Gestione dell'input per filtrare le professioni in tempo reale
+document.getElementById('cerca-professione').addEventListener('input', function() {
+    const query = this.value.toLowerCase();
+    const professioniFiltrate = [];
+    
+    for (let i = 0; i < elencoProfessioni.length; i++) {
+        if (elencoProfessioni[i].nome.toLowerCase().includes(query)) {
+            professioniFiltrate.push(elencoProfessioni[i]);
+        }
+    }
+    
+    mostraProfessioni(professioniFiltrate);
+});
