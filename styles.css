@@ -9,3 +9,114 @@
     display: block;
     opacity: 1;
 }
+
+/* FILTRI E INPUT */
+.filter-bar {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 15px;
+    border-radius: 8px;
+    display: flex;
+    gap: 15px;
+    margin-bottom: 30px;
+}
+
+/* Stile card */
+.card {
+    background-color: #1e293b; 
+    border: 2px solid #334155; 
+    border-radius: 12px;
+    padding: 20px;
+    transition: transform 0.2s, border-color 0.2s;
+    margin-bottom: 20px;
+}
+
+/* interattività del muose al passaggio sopra i bottoni */
+.card:hover {
+    border-color: #6366f1; 
+    transform: translateY(-5px);
+}
+
+
+.tabella-confronto {
+    width: 100%;
+    border-collapse: collapse;
+    background-color: #1e293b;
+    border: 2px solid #334155;
+    border-radius: 8px;
+    overflow: hidden;
+}
+
+.tabella-confronto th, .tabella-confronto td {
+    padding: 15px;
+    border: 1px solid #334155;
+    text-align: left;
+}
+
+/* RESET DI BASE */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* PALETTE COLORI  */
+body {
+    background: linear-gradient(135deg, #0f172a 0%, #1e1b4b 100%);
+    color: #f8fafc;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+/* HEADER e NAVBAR */
+header {
+    background-color: #1e293b;
+    border-bottom: 1px solid #334155;
+    padding: 15px 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo {
+    font-size: 20px;
+    font-weight: bold;
+    color: #6366f1; 
+}
+
+nav ul {
+    display: flex;
+    list-style: none;
+    gap: 15px;
+}
+
+nav a {
+    color: #f8fafc;
+    text-decoration: none;
+    font-size: 14px;
+    padding: 8px 16px;
+    border-radius: 6px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #6366f1;
+    color: #ffffff;
+}
+
+/* STRUTTURA DEL CONTENUTO */
+main {
+    flex: 1;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 20px;
+}
+
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    border-left: 4px solid #6366f1;
+    padding-left: 10px;
+}
