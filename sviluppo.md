@@ -21,7 +21,7 @@ Ordine Z-A
 Ordine A-Z
 <img width="2560" height="1438" alt="OrientData - Google Chrome 5_30_2026 11_11_51 PM" src="https://github.com/user-attachments/assets/0357fb0c-1572-45af-a560-77254abd5861" />
 
-5/31/2026 (Marc0)
+5/31/2026 (Marco)
 Ho aggiunto nello script la gestione della sezione "Professioni". Ora, quando viene caricato il JSON, il sito crea da solo tutte le schede delle professioni con gli stipendi e le competenze richieste. Inoltre ho implementato la barra di ricerca che permette di filtrare le professioni in tempo reale mentre l'utente scrive.
 Filtro nomi professioni:
 <img width="1600" height="805" alt="WhatsApp Image 2026-05-31 at 08 48 56" src="https://github.com/user-attachments/assets/dc4d92b6-9982-4e42-97f2-3883e68c9f76" />
